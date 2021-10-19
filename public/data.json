@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Covid 19 Vaccine",
+    "kind": "Corona Vac",
+    "desc": "Learn how the immune system is being harnessed to create vaccines that",
+    "picture": "https://i.ibb.co/cC4LmMk/spencer-davis-l-Zk0-Qrsr-V8-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "name": "CAR T-Cells. ",
+    "kind": "Cancer",
+    "desc": "At Montefiore Einstein Cancer Center, putting patients first includes being at ",
+    "picture": "https://i.ibb.co/Jx1JgpK/CAR-T-cell-therapy-banner.png"
+  },
+  {
+    "id": 3,
+    "name": "CAR T-Cells. ",
+    "kind": "Cancer",
+    "desc": "At Montefiore Einstein Cancer Center, putting patients first includes being at ",
+    "picture": "https://i.ibb.co/3cZMcg8/robina-weermeijer-NIu-GLCC7q54-unsplash.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Laser Hair Therapy",
+    "kind": "Hair Transplant",
+    "desc": "Male hair restoration is simple, convenient and highly effective with our advanced ",
+    "picture": "https://i.ibb.co/WkK1bSf/laser-hair.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Burn Care Services",
+    "kind": "Burn",
+    "desc": "Our highly specialized facilities, equipment and staff allow us to provide a full range of services",
+    "picture": "https://i.ibb.co/4MGJF7Z/Clinic-RNSCT2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dantal Service",
+    "kind": "dantal",
+    "desc": "Hospitals do not provide a dental service to the general public, ",
+    "picture": "https://i.ibb.co/hZrKt2q/Getty-Images-958957024.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Contact Device",
+    "kind": "Tele Phone",
+    "desc": "Classic Tele-Phone Design Double Lever Free Standing Bathtub Faucet Solid Brass Polished Chrome Brushed Nickel",
+    "picture": "https://i.ibb.co/BNp7Tfv/quino-al-8g-WEAAXJjt-I-unsplash.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Oparating Table",
+    "kind": "Orthopedics",
+    "desc": "Manufacture High-End German Motor Hospital Electric Hydralic Medical Mobile Operating Room Table Ot Theatre ",
+    "picture": "https://i.ibb.co/pdqCxCT/HD-9-China-Factory-Supply-Mulit-Function-Electric-Bed-Medical-Hospital-Furniture.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Pump blood monitor",
+    "kind": "Patient/Fetal/Maternal Monitor",
+    "desc": "Contec Cms8000 Hospital Patient Monitoring Equipment ICU Multiparameter Patient Monitor",
+    "picture": "https://i.ibb.co/tXMz6w7/jair-lazaro-0lr-Jo37r6-Nk-unsplash.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Bed",
+    "kind": "Orthopedics",
+    "desc": "Manufacture High-End German Motor Hospital Electric Hydralic Medical Mobile Operating Room Table Ot Theatre",
+    "picture": "https://i.ibb.co/JQdk5rr/112206-16422584.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": "Office",
+    "kind": "matal",
+    "desc": " Manufacturer of Steel Airport Hospital Chair Waiting Room Chair Office Chairs Metal Seating Modern",
+    "picture": "https://i.ibb.co/2qyyDh3/michael-browning-D0ov97-Td-x-M-unsplash.jpg"
+  }
+]

@@ -1,0 +1,25 @@
+.first-div {
+  margin-top: 50px;
+  height: 300px;
+}
+.total-service {
+  background-image: url(https://wallpaperaccess.com/full/1282799.jpg);
+  background-repeat: no-repeat;
+  color: black;
+  background-size: 100% 100%;
+  padding-top: 130px;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  border: 1px solid lightblue;
+}
+.font-size-facilities {
+  font-size: 15px;
+  color: balck;
+}
+
+.carousel-image {
+  height: 400px;
+}

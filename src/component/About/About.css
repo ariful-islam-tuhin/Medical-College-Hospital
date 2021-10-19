@@ -1,0 +1,16 @@
+.img img {
+  width: 70%;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.doctor-photo {
+  border: 1px solid black;
+}
+.about-div {
+  padding: 0 100px;
+}
+.bg-light {
+  color: #7c8186;
+}

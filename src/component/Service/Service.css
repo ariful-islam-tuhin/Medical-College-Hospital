@@ -1,0 +1,18 @@
+.singleServiceDiv {
+  border: 1px solid rgba(77, 51, 51, 0.85);
+  margin: 2px;
+  margin-bottom: 50px;
+}
+
+.singleServiceDiv img {
+  max-width: 80%;
+  height: 200px;
+  border-radius: 50%;
+}
+.single-servic {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lineHeight {
+  line-height: 50%;
+}
