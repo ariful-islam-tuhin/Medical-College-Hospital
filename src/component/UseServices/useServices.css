@@ -1,0 +1,21 @@
+.single-service {
+  background-color: #a81a3980;
+  margin: 30px;
+  margin: 0px 20px;
+  /* height: 400px; */
+}
+.single-service:hover {
+  background-color: rgba(7, 238, 46, 0.185);
+}
+.singleServiceDiv img {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.button {
+  background-color: #d92121da;
+  padding: 5px 50px;
+  color: white;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}

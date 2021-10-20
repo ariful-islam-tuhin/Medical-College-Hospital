@@ -1,31 +1,24 @@
-import React, { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Service from "../Service/Service";
+import useAuth from "../../hooks/useAuth";
 import "./Home.css";
 
 const Home = () => {
-  const [services, setServices] = useState([]);
-  useEffect(() => {
-    fetch("data.json")
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
-
-  const newService = services.slice(0, 6);
+  const { services } = useAuth();
+  const newService = services?.slice(0, 6);
 
   return (
     <div>
       <div className="first-div total-service">
-        <h2> Academic Wave of AMC</h2>
-        <p>
+        <h2 className="text-white"> Academic Wave of AMC</h2>
+        <p className="text-white">
           Academic division is responsible for teaching medical students in
           accordance with the curriculum laid down by Bangladesh Medical Dental
           provides a structured process of institutional teaching .........Red
           More
         </p>
 
-        <p>
-          {" "}
+        <p className="text-white">
           1. Phase I (1.5 Year) including First Professional Examination.
           Subjects are Anatomy, Physiology and Biochemistry. 2. Phase II (1
           Microbiology. 4. for each written paper and two half an hour for the
