@@ -45,25 +45,33 @@ const Login = () => {
             />
             <br />
             <input
-              type="password"
+              type="password"placeholder="Password"
               onBlur={handlePasswordChange}
               name=""
               id="password"
             />
             <br />
+            <br />
+        
             <span>{logError}</span>
-            <input type="submit" value="Submit" />
+            <input className="ps-3 pe-3 text-white" type="submit" placeholder="Submit"/>
+            <br />
+            <br />
             <br />
           </form>
 
           <p>
-            new to ema-jhon <Link to="/register">Creat Account</Link>{" "}
+            new to Arif medical college <Link to="/register">Creat Account</Link>{" "}
           </p>
 
           <div>---------or ----------</div>
-          <button className="btn-regular" onClick={handleGoogleLogin}>
+          <br />
+       
+          <button className="btn-regular bg-primary text-white p-1" onClick={handleGoogleLogin}>
             Google Sign In
           </button>
+          <br />
+          <br />
         </div>
       </div>
     </div>

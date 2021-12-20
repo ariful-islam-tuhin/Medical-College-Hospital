@@ -60,8 +60,6 @@ const Footer = () => {
               Location:Sylhet,Bangladesh <br />
               Academic contact:+088 645-747474 <br />
               Mobile Number:+088645747474 <br />
-              Mobile Number:+088645747474 <br />
-              Mobile Number:+088645747474 <br />
               Hospital Contact:+088645747474 <br />
               FAX Number:+0886458774 <br />
               Email Address:info@amc.edu.bd

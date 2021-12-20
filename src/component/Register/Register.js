@@ -34,7 +34,7 @@ const Register = () => {
     registerNewUser(email, password, name);
   };
   return (
-    <div className="login-form">
+    <div className="login-form p-4">
       <div>
         <h2>Register:Create Account</h2>
         <form onSubmit={handleRegistration}>
@@ -63,14 +63,14 @@ const Register = () => {
           />
           <br />
           <span>{error || regiError}</span>
-          <input type="submit" value="submit" />
+          <input className="text-white pl-4 pr-4" type="submit" value="submit" />
         </form>
         <p>
           Already have an a account? <Link to="/login">Login</Link>
         </p>
         <div>---------or ----------</div>
 
-        <button className="btn-regular">Google Sign In</button>
+        <button className="btn-regular bg-primary text-white p-1">Google Sign In</button>
       </div>
     </div>
   );

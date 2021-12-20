@@ -1,21 +1,43 @@
-.single-service {
-  background-color: #a81a3980;
-  margin: 30px;
-  margin: 0px 20px;
-  /* height: 400px; */
+
+.singleServiceDiv{
+  max-width: 260px;
+   height: 500px;
+   border:1px solid rgb(190, 190, 190);
+   margin: 10px;
+   overflow: hidden;
+  
 }
-.single-service:hover {
-  background-color: rgba(7, 238, 46, 0.185);
-}
+
 .singleServiceDiv img {
-  max-width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  padding-bottom: 10px;
+  border-radius: 20px;
 }
+.singleServiceDiv img:hover {
+  transform: scale(1.2) skew(-15deg);
+  transition:transform 2s ease-in-out;
+
+}
+.singleServiceDiv img:not(:hover){
+  transform: scale(.9) skew(15deg);
+  transition:transform 2s ease-in-out;
+
+}
+
+.relative{
+  position:relative; 
+  height: 400px;
+}
+
 .button {
-  background-color: #d92121da;
+  background-color: #f00808;
   padding: 5px 50px;
-  color: white;
-  margin-bottom: 50px;
+  color: white;  
   border-radius: 10px;
+  margin-bottom: 190px;
+}
+.button:hover {
+  background-color: #000000;
+ 
 }

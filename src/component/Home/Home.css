@@ -1,7 +1,8 @@
 .first-div {
-  height: 300px;
+  max-height: 400px;
+  padding: 30px;
 }
-.total-service {
+.academic-wave {
   background-image: url(https://wallpaperaccess.com/full/1282799.jpg);
   background-repeat: no-repeat;
   color: black;
@@ -9,16 +10,15 @@
   padding-top: 50px;
 }
 .service-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 10px;
-  border: 1px solid lightblue;
-}
-.font-size-facilities {
-  font-size: 15px;
-  color: balck;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
+
 .carousel-image {
-  height: 500px;
+  max-height: 500px;
 }

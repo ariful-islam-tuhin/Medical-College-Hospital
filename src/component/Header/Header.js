@@ -15,15 +15,7 @@ const Header = () => {
       <Link to="/" className="text-white">
         Arif Medical College & Hospital
       </Link>
-      <img
-        className="navbar-brand"
-        src={
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeE9hPq55PdfBBgsQUwTlRkZRuggH2Vu2OZg&usqp=CAU"
-        }
-        alt=""
-      />
-
-      <div className="navbar-nav  ml-auto">
+      <div className="navbar-nav ms-auto">
         <NavLink className="NavLink" to="/home" activeStyle={activeStyle}>
           Home
         </NavLink>
